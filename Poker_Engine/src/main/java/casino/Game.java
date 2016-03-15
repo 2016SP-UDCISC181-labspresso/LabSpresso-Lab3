@@ -33,7 +33,7 @@ public class Game {
 //.......................... METHODS..............................//                       
 ////////////////////////////////////////////////////////////////////
 	public void addPlayerToGame(Table table, Player player){
-		//TODO add player to table...add to the arraylist
+		// TODO Add player to table...add to the arraylist
 		
 	}
 	
