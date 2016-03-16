@@ -9,7 +9,7 @@ public class Game {
 ////////////////////////////////////////////////////////////////////
 	
 	private UUID gameID;
-	private ArrayList<Player> tablePlayers = new ArrayList<Player>();
+	private ArrayList<Player> gamePlayers = new ArrayList<Player>();
 	
 
 /////////////////////////////////////////////////////////////////////
@@ -43,7 +43,7 @@ public class Game {
 //.......................... METHODS..............................//                       
 ////////////////////////////////////////////////////////////////////
 	public void addPlayerToGame(Table table, Player player){
-		// TODO Add player to table...add to the arraylist
+		
 		
 	}
 	
