@@ -30,6 +30,16 @@ public class Game {
 	}
 
 /////////////////////////////////////////////////////////////////////
+//........................CONSTRUCTORS............................//                        
+////////////////////////////////////////////////////////////////////
+
+	public Game(UUID gameID, ArrayList<Player> tablePlayers) {
+		super();
+		this.gameID = gameID;
+		this.tablePlayers = tablePlayers;
+}
+	
+/////////////////////////////////////////////////////////////////////
 //.......................... METHODS..............................//                       
 ////////////////////////////////////////////////////////////////////
 	public void addPlayerToGame(Table table, Player player){
@@ -38,15 +48,7 @@ public class Game {
 	}
 	
 
-/////////////////////////////////////////////////////////////////////
-//........................CONSTRUCTORS............................//                        
-////////////////////////////////////////////////////////////////////
-	
-	public Game(UUID gameID, ArrayList<Player> tablePlayers) {
-		super();
-		this.gameID = gameID;
-		this.tablePlayers = tablePlayers;
-	}
+
 
 
 }

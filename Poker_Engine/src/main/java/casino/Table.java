@@ -29,19 +29,22 @@ public class Table {
 	public void setTablePlayers(ArrayList<Player> tablePlayers) {
 		this.tablePlayers = tablePlayers;
 	}
+
+/////////////////////////////////////////////////////////////////////
+//........................CONSTRUCTORS............................//                        
+////////////////////////////////////////////////////////////////////
+
+	public Table(UUID tableID, ArrayList<Player> tablePlayers) {
+		super();
+		TableID = tableID;
+		this.tablePlayers = tablePlayers;
+	}	
+
 /////////////////////////////////////////////////////////////////////
 //.......................... METHODS..............................//                       
 ////////////////////////////////////////////////////////////////////
 
 	
-/////////////////////////////////////////////////////////////////////
-//........................CONSTRUCTORS............................//                        
-////////////////////////////////////////////////////////////////////
-	
-	public Table(UUID tableID, ArrayList<Player> tablePlayers) {
-		super();
-		TableID = tableID;
-		this.tablePlayers = tablePlayers;
-	}
+
 	
 }
