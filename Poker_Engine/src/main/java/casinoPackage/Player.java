@@ -1,50 +1,57 @@
-package casino;
-
-import java.util.ArrayList;
+package casinoPackage;
 import java.util.UUID;
 
-public class Table {
-	
-	
-	
-	
+import pokerBase.*;
+public class Player {
 /////////////////////////////////////////////////////////////////////
 //..........................ATTRIBUTES............................//                              
 ////////////////////////////////////////////////////////////////////
-	private UUID TableID;
-	private ArrayList<Player> tablePlayers = new ArrayList<Player>();
+	
+	private UUID playerID;
+	private String playerName;
+	private int playerPos;
+
 	
 /////////////////////////////////////////////////////////////////////
-//......................SETTERS & GETTERS.........................//                        
+//.....................SETTERS & GETTERS.........................//                        
 ////////////////////////////////////////////////////////////////////
-	public UUID getTableID() {
-		return TableID;
+	
+	public UUID getPlayerI.D() {
+		return playerID;
 	}
-	public void setTableID(UUID tableID) {
-		TableID = tableID;
+	public void setPlayerID(UUID playerID) {
+		this.playerID = playerID;
 	}
-	public ArrayList<Player> getTablePlayers() {
-		return tablePlayers;
+	public String getPlayerName() {
+		return playerName;
 	}
-	public void setTablePlayers(ArrayList<Player> tablePlayers) {
-		this.tablePlayers = tablePlayers;
+	public void setPlayerName(String playerName) {
+		this.playerName = playerName;
+	}
+	public int getPlayerPos() {
+		return playerPos;
+	}
+	public void setPlayerPos(int playerPos) {
+		this.playerPos = playerPos;
 	}
 
+	
 /////////////////////////////////////////////////////////////////////
 //........................CONSTRUCTORS............................//                        
 ////////////////////////////////////////////////////////////////////
-
-	public Table(UUID tableID, ArrayList<Player> tablePlayers) {
+	public Player(UUID playerID, String playerName, int playerPos) {
 		super();
-		TableID = tableID;
-		this.tablePlayers = tablePlayers;
-	}	
+		this.playerID = playerID;
+		this.playerName = playerName;
+		this.playerPos = playerPos;
 
 /////////////////////////////////////////////////////////////////////
 //.......................... METHODS..............................//                       
 ////////////////////////////////////////////////////////////////////
 
+
+	}
+	
 	
 
-	
 }

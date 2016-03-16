@@ -1,4 +1,4 @@
-package casino;
+package casinoPackage;
 
 import java.util.ArrayList;
 import java.util.UUID;
