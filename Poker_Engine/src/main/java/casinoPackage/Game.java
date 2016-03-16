@@ -23,10 +23,10 @@ public class Game {
 		this.gameID = gameID;
 	}
 	public ArrayList<Player> getTablePlayers() {
-		return tablePlayers;
+		return gamePlayers;
 	}
 	public void setTablePlayers(ArrayList<Player> tablePlayers) {
-		this.tablePlayers = tablePlayers;
+		this.gamePlayers = tablePlayers;
 	}
 
 /////////////////////////////////////////////////////////////////////
@@ -36,16 +36,16 @@ public class Game {
 	public Game(UUID gameID, ArrayList<Player> tablePlayers) {
 		super();
 		this.gameID = gameID;
-		this.tablePlayers = tablePlayers;
+		this.gamePlayers = tablePlayers;
 }
 	
 /////////////////////////////////////////////////////////////////////
-//.......................... METHODS..............................//                       
+//...........................METHODS..............................//                       
 ////////////////////////////////////////////////////////////////////
 	public void addPlayerToGame(Table table, Player player){
 		
 		
-	}
+		}
 	
 
 

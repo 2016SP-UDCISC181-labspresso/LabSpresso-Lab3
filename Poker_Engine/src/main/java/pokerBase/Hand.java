@@ -126,6 +126,7 @@ public class Hand {
 	}
 
 	public static boolean isHandFiveOfAKind(Hand h, HandScore hs) {
+	
 		hs.setHandStrength(eHandStrength.FiveOfAKind.getHandStrength());
 
 		return false;
