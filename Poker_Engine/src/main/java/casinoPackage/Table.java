@@ -48,6 +48,7 @@ public class Table {
 		tablePlayers.add(player);
 		
 		
+		
 	}
 	
 }
