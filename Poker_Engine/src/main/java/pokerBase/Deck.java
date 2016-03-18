@@ -41,7 +41,7 @@ public class Deck {
 		int iCardNbr = 1;
 		for (eSuit eSuit : eSuit.values()) {
 			for (eRank eRank : eRank.values()) {
-				if ((eRank != eRank.JOKER) && (eSuit != eSuit.JOKER))
+				if ((eRank != pokerEnums.eRank.JOKER) && (eSuit != pokerEnums.eSuit.JOKER))
 					deckCards.add(new Card(eSuit, eRank, iCardNbr++));
 			}
 		}

@@ -16,7 +16,7 @@ public class Card implements Comparable {
 	@XmlElement
 	private int iCardNbr;
 	
-	private Card()
+	public Card()
 	{
 		
 	}

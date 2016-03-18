@@ -41,7 +41,7 @@ public class HandTest {
 	{
 		Object t = null;
 		
-		try {
+		try { 
 			//	Load the Class into 'c'
 			Class<?> c = Class.forName("pokerBase.Hand");
 			//	Create a new instance 't' from the no-arg Deck constructor
