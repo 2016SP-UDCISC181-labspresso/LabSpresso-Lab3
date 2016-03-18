@@ -10,13 +10,22 @@ public class Player {
 	private UUID playerID;
 	private String playerName;
 	private int playerPos;
+	
+/////////////////////////////////////////////////////////////////////
+//........................CONSTRUCTORS............................//                        
+////////////////////////////////////////////////////////////////////
+public Player(UUID playerID, String playerName, int playerPos) {
+super();
+this.playerID = playerID;
+this.playerName = playerName;
+this.playerPos = playerPos;
 
 	
 /////////////////////////////////////////////////////////////////////
 //.....................SETTERS & GETTERS.........................//                        
 ////////////////////////////////////////////////////////////////////
 	
-	public UUID getPlayerI.D() {
+	public UUID getPlayerID() {
 		return playerID;
 	}
 	public void setPlayerID(UUID playerID) {
@@ -36,14 +45,7 @@ public class Player {
 	}
 
 	
-/////////////////////////////////////////////////////////////////////
-//........................CONSTRUCTORS............................//                        
-////////////////////////////////////////////////////////////////////
-	public Player(UUID playerID, String playerName, int playerPos) {
-		super();
-		this.playerID = playerID;
-		this.playerName = playerName;
-		this.playerPos = playerPos;
+
 
 /////////////////////////////////////////////////////////////////////
 //.......................... METHODS..............................//                       

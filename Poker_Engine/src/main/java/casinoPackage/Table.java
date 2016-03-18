@@ -15,6 +15,16 @@ public class Table {
 	private ArrayList<Player> tablePlayers = new ArrayList<Player>();
 	
 /////////////////////////////////////////////////////////////////////
+//........................CONSTRUCTORS............................//                        
+////////////////////////////////////////////////////////////////////
+
+public Table(UUID tableID, ArrayList<Player> tablePlayers) {
+super();
+TableID = tableID;
+this.tablePlayers = tablePlayers;
+}	
+
+/////////////////////////////////////////////////////////////////////
 //......................SETTERS & GETTERS.........................//                        
 ////////////////////////////////////////////////////////////////////
 	public UUID getTableID() {
@@ -30,15 +40,7 @@ public class Table {
 		this.tablePlayers = tablePlayers;
 	}
 
-/////////////////////////////////////////////////////////////////////
-//........................CONSTRUCTORS............................//                        
-////////////////////////////////////////////////////////////////////
 
-	public Table(UUID tableID, ArrayList<Player> tablePlayers) {
-		super();
-		TableID = tableID;
-		this.tablePlayers = tablePlayers;
-	}	
 
 /////////////////////////////////////////////////////////////////////
 //.......................... METHODS..............................//                       

@@ -11,6 +11,17 @@ public class Game {
 	
 	private UUID gameID;
 	private ArrayList<Player> gamePlayers = new ArrayList<Player>();
+
+/////////////////////////////////////////////////////////////////////
+//........................CONSTRUCTORS............................//                        
+////////////////////////////////////////////////////////////////////
+
+public Game(UUID gameID, ArrayList<Player> tablePlayers) {
+super();
+this.gameID = gameID;
+this.gamePlayers = tablePlayers;
+}
+
 	
 
 /////////////////////////////////////////////////////////////////////
@@ -30,15 +41,7 @@ public class Game {
 		this.gamePlayers = tablePlayers;
 	}
 
-/////////////////////////////////////////////////////////////////////
-//........................CONSTRUCTORS............................//                        
-////////////////////////////////////////////////////////////////////
 
-	public Game(UUID gameID, ArrayList<Player> tablePlayers) {
-		super();
-		this.gameID = gameID;
-		this.gamePlayers = tablePlayers;
-}
 	
 /////////////////////////////////////////////////////////////////////
 //...........................METHODS..............................//                       
